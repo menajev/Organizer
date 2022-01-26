@@ -1,0 +1,855 @@
+{
+  "Version": 1,
+  "ProjectID": "Ogz_iOS",
+  "Name": "Organizer",
+  "TasksListFilters": {
+    "HideDone": true,
+    "HideInactive": true,
+    "HideBlocked": false,
+    "MinimumPriority": -1
+  },
+  "ShortcutsListFilters": {
+    "HideDone": true,
+    "HideInactive": false,
+    "HideBlocked": true,
+    "MinimumPriority": -1
+  },
+  "EffortListFilters": {
+    "PeriodType": 2
+  },
+  "Tasks": [
+    {
+      "Type": "Task",
+      "ID": 1,
+      "Name": "Tasks list",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+"TargetVersion": 1,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 2,
+      "ParentID": 1,
+      "Name": "Shortcuts list",
+      "Description": "All projects / active project option",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 3,
+      "Name": "Effort list",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 4,
+      "Name": "Data",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 5,
+      "Name": "Server connection",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 6,
+      "ParentID": 1,
+      "Name": "Master task",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 7,
+      "Name": "Filters",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 8,
+      "Name": "Init project + git",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 3,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 9,
+      "Name": "Layout",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 10,
+      "ParentID": 1,
+      "Name": "Cells",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 11,
+      "ParentID": 9,
+      "Name": "SwiftUI basics",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 12,
+      "Name": "SwiftLint",
+      "Description": "",
+      "Status": "Inactive",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 13,
+      "ParentID": 4,
+      "Name": "Repository",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 14,
+      "Name": "ServiceInjector",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 15,
+      "Name": "Localsettings",
+      "Description": "- last opened project",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 16,
+      "ParentID": 1,
+      "Name": "Tasks details",
+      "Description": "Don't bind inputs to object; jsut read them if ok is clicked\n\nDuplicate buttons from swipe (+ add shortcuts list there)",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 17,
+      "ParentID": 1,
+      "Name": "Side panel",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 18,
+      "ParentID": 10,
+      "Name": "Swipe buttons",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 19,
+      "Name": "Localizations",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 20,
+      "ParentID": 9,
+      "Name": "Appearance",
+      "Description": "static Date formatteer\nicons from dekstop version",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 21,
+      "Name": "Search in tasks list & effort list",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 22,
+      "ParentID": 13,
+      "Name": "Save data to local",
+      "Description": "",
+      "Status": "Done",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 23,
+      "ParentID": 13,
+      "Name": "Synchronize with remote",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 24,
+      "Name": "Refactor",
+      "Description": "String, colors, etc should be in views, not in model\nSideMenu - create own with custom width and no gesture\nAll dialogs, etc display variable should by showing-\n",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+"TargetVersion": 2,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 25,
+      "Name": "Management view",
+      "Description": "",
+      "Status": "Inactive",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": true
+    },
+    {
+      "Type": "Task",
+      "ID": 26,
+      "Name": "Compilation time",
+      "Description": "",
+      "Status": "Inactive",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": false,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 27,
+      "ParentID": 1,
+      "Name": "Blockers",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 0,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 28,
+      "ParentID": 4,
+      "Name": "ID",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 8,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 29,
+      "ParentID": 25,
+      "Name": "Tags",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 2,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 30,
+      "ParentID": 25,
+      "Name": "Sync",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 2,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 31,
+      "ParentID": 25,
+      "Name": "Project",
+      "Description": "Rename & change id\nProject selection",
+      "Status": "Active",
+      "Priority": 2,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false,
+      "TargetVersion": 1
+    },
+    {
+      "Type": "Task",
+      "ID": 32,
+      "ParentID": 4,
+      "Name": "Tasks",
+      "Description": "Create protocols\nCreate proper type\nRemove task part\nCreation time\nEstimated time\nSupported function",
+      "Status": "Active",
+      "Priority": 9,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": true,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 33,
+      "ParentID": 32,
+      "Name": "Milestone",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 34,
+      "ParentID": 32,
+      "Name": "Container",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 35,
+      "ParentID": 32,
+      "Name": "Version container",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false,
+      "TargetVersion": 1
+    },
+    {
+      "Type": "Task",
+      "ID": 36,
+      "ParentID": 4,
+      "Name": "Tags",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 9,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    },
+    {
+      "Type": "Task",
+      "ID": 37,
+      "ParentID": 23,
+      "Name": "Git merge",
+      "Description": "",
+      "Status": "Active",
+      "Priority": 1,
+      "EstimatedTime": 0,
+      "CreationTime": 0,
+      "ShortcutsList": true,
+      "Collapsed": false,
+      "Pinned": false,
+      "Container": false
+    }
+  ],
+  "Blockers": [],
+  "Effort": [
+    {
+      "ParentID": 36,
+      "StartTime": 1642428260950,
+      "EndTime": -1
+    },
+    {
+      "ParentID": 25,
+      "StartTime": 1639511207414,
+      "EndTime": 1639511209297
+    },
+    {
+      "ParentID": 25,
+      "StartTime": 1639435892481,
+      "EndTime": 1639440300380
+    },
+    {
+      "ParentID": 25,
+      "StartTime": 1639421317593,
+      "EndTime": 1639426687055
+    },
+    {
+      "ParentID": 25,
+      "StartTime": 1639400811842,
+      "EndTime": 1639406677324
+    },
+    {
+      "ParentID": 22,
+      "StartTime": 1639332642582,
+      "EndTime": 1639335830525
+    },
+    {
+      "ParentID": 6,
+      "StartTime": 1639330480921,
+      "EndTime": 1639332309499
+    },
+    {
+      "ParentID": 21,
+      "StartTime": 1639318002743,
+      "EndTime": 1639320927194
+    },
+    {
+      "ParentID": 19,
+      "StartTime": 1639307498141,
+      "EndTime": 1639312722610
+    },
+    {
+      "ParentID": 18,
+      "StartTime": 1639260858395,
+      "EndTime": 1639264456431
+    },
+    {
+      "ParentID": 18,
+      "StartTime": 1639234584551,
+      "EndTime": 1639238465777
+    },
+    {
+      "ParentID": 18,
+      "StartTime": 1639232739651,
+      "EndTime": 1639233991049
+    },
+    {
+      "ParentID": 18,
+      "StartTime": 1639086263816,
+      "EndTime": 1639087271427
+    },
+    {
+      "ParentID": 18,
+      "StartTime": 1639063751674,
+      "EndTime": 1639064624572
+    },
+    {
+      "ParentID": 3,
+      "StartTime": 1639057845087,
+      "EndTime": 1639063740141
+    },
+    {
+      "ParentID": 3,
+      "StartTime": 1638980958565,
+      "EndTime": 1638983642701
+    },
+    {
+      "ParentID": 3,
+      "StartTime": 1638831230468,
+      "EndTime": 1638836970754
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638806358419,
+      "EndTime": 1638809744878
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638791038244,
+      "EndTime": 1638795876030
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638720361687,
+      "EndTime": 1638723499953
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638713543556,
+      "EndTime": 1638718296893
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638658175690,
+      "EndTime": 1638666129040
+    },
+    {
+      "ParentID": 17,
+      "StartTime": 1638633864635,
+      "EndTime": 1638635914794
+    },
+    {
+      "ParentID": 2,
+      "StartTime": 1638575119948,
+      "EndTime": 1638580116738
+    },
+    {
+      "ParentID": 2,
+      "StartTime": 1638565213617,
+      "EndTime": 1638565772317
+    },
+    {
+      "ParentID": 1,
+      "StartTime": 1638560881184,
+      "EndTime": 1638565179209
+    },
+    {
+      "ParentID": 1,
+      "StartTime": 1638470239475,
+      "EndTime": 1638474321658
+    },
+    {
+      "ParentID": 1,
+      "StartTime": 1638450252386,
+      "EndTime": 1638457572006
+    },
+    {
+      "ParentID": 1,
+      "StartTime": 1638366186871,
+      "EndTime": 1638367381997
+    },
+    {
+      "ParentID": 1,
+      "StartTime": 1638301003866,
+      "EndTime": 1638301989801
+    },
+    {
+      "ParentID": 16,
+      "StartTime": 1638289289443,
+      "EndTime": 1638295338925
+    },
+    {
+      "ParentID": 16,
+      "StartTime": 1638281224397,
+      "EndTime": 1638284498958
+    },
+    {
+      "ParentID": 10,
+      "StartTime": 1638275750728,
+      "EndTime": 1638280097485
+    },
+    {
+      "ParentID": 2,
+      "StartTime": 1638220635459,
+      "EndTime": 1638227628694
+    },
+    {
+      "ParentID": 13,
+      "StartTime": 1638195299579,
+      "EndTime": 1638196912426
+    },
+    {
+      "ParentID": 13,
+      "StartTime": 1638141655417,
+      "EndTime": 1638143528111
+    },
+    {
+      "ParentID": 13,
+      "StartTime": 1638120062688,
+      "EndTime": 1638126039625
+    },
+    {
+      "ParentID": 14,
+      "StartTime": 1638114868217,
+      "EndTime": 1638116464605
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1638111318110,
+      "EndTime": 1638114864031
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637856451423,
+      "EndTime": 1637865364730
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637841719555,
+      "EndTime": 1637847593264
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637774694188,
+      "EndTime": 1637781851838
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637767960537,
+      "EndTime": 1637771234079
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637762940333,
+      "EndTime": 1637766957116
+    },
+    {
+      "ParentID": 5,
+      "StartTime": 1637701871335,
+      "EndTime": 1637703399298
+    },
+    {
+      "ParentID": 4,
+      "StartTime": 1637679829627,
+      "EndTime": 1637680741889
+    },
+    {
+      "ParentID": 4,
+      "StartTime": 1637676919778,
+      "EndTime": 1637679736415
+    },
+    {
+      "ParentID": 4,
+      "StartTime": 1637600571913,
+      "EndTime": 1637603205062
+    },
+    {
+      "ParentID": 9,
+      "StartTime": 1637596356130,
+      "EndTime": 1637600571708
+    },
+    {
+      "ParentID": 9,
+      "StartTime": 1637531354221,
+      "EndTime": 1637532967252
+    },
+    {
+      "ParentID": 4,
+      "StartTime": 1637344312961,
+      "EndTime": 1637347959908
+    },
+    {
+      "ParentID": 10,
+      "StartTime": 1637342900879,
+      "EndTime": 1637344310797
+    },
+    {
+      "ParentID": 11,
+      "StartTime": 1637248138815,
+      "EndTime": 1637249251264
+    },
+    {
+      "ParentID": 11,
+      "StartTime": 1637237442628,
+      "EndTime": 1637238384509
+    },
+    {
+      "ParentID": 8,
+      "StartTime": 1637164944044,
+      "EndTime": 1637167171166
+    }
+  ],
+  "Tags": [],
+  "TargetVersions": [
+  {
+      "ID": 1,
+      "Name": "0.0.5"
+    },
+{
+    "ID": 2,
+    "Name": "0.0.1"
+}
+    ]
+}

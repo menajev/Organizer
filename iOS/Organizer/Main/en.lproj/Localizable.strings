@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  Organizer
+
+  Created by XCodeClub on 2021-12-12.
+  
+*/
+
+"Common.Active" = "Aktywny";
+"Common.Cancel" = "Anuluj";
+"Common.Container" = "Kontener";
+"Common.Delete" = "Usuń";
+"Common.Description" = "Opis";
+"Common.Name" = "Nazwa";
+"Common.OK" = "Ok";
+"Common.Priority" = "Priorytet";
+"Common.Save" = "Zapisz";
+
+"Tasks" = "Zadania";
+"Effort" = "Wysiłek";
+"Shortcuts" = "Skróty";
+
+"TaskDetails.ShowBlockers" = "Pokaż blockery";
+"TaskDetails.CreateChild" = "Stwórz dziecko";
+
+"SideMenu.Close" = "Zamknij menu";
+"SideMenu.CreateNewTask" = "Nowe zadanie";
+"SideMenu.MinPriority" = "Min. priorytet";
+"SideMenu.MinPriority.Off" = "Wył.";
+"SideMenu.HideDone" = "Schowaj ukończone";
+"SideMenu.HideInactive" = "Schowaj nieaktywne";
+"SideMenu.HideBlocked" = "Schowaj blokowane";
+"SideMenu.MasterTask" = "Zadanie główne";
+"SideMenu.MasterTaskEmpty" = "(nie wybrano)";
+"SideMenu.SortingParam" = "Sortowanie";
+"SideMenu.SortingDirection" = "Kierunek";
+
+"TasksListCell.Track" = "Mierz";
+"TasksListCell.Done" = "Skończone";
+"TasksListCell.SetActive" = "Aktywuj";
+"TasksListCell.SetInactive" = "Deaktywuj";
+"TasksListCell.Delete" = "Usuń";
+"TasksListCell.StartTracking" = "Mierz";
+"TasksListCell.StopTracking" = "Zatrzymaj";
+"TasksListCell.Collapse" = "[-]";
+"TasksListCell.Expand" = "[+]";
+"TasksListCell.ShortcutsSymbol" = "(S)";
+"TasksListCell.ConfirmDeleteTask" = "Are you sure you want to delete %@?";
+
+"EffortListCell-UnknownParent" = "(nieznany)";
+
+"SortOrder.Asc" = "Rosnąco";
+"SortOrder.Desc" = "Malejąco";
+
+"ComparedParam.Name" = "Nazwa";
+"ComparedParam.Priority" = "Priorytet";
+
+"EffortDisplayPeriodName.Detailed" = "Szczegóły";
+"EffortDisplayPeriodName.Day" = "Dzień";
+"EffortDisplayPeriodName.Month" = "Miesiąc";
